@@ -21,6 +21,7 @@ defmodule Octopus.MixProject do
   defp package do
     [
       name: "octopus",
+      description: "Map any value, not just enumerables!",
       files: ["lib", "mix.exs", "README.md", "LICENSE"],
       maintainers: ["Jan Pieper"],
       licenses: ["GNU GPLv3"],
