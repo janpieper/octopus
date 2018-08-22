@@ -23,7 +23,7 @@ defmodule Octopus.MixProject do
       name: "octopus",
       files: ["lib", "mix.exs", "README.md", "LICENSE"],
       maintainers: ["Jan Pieper"],
-      licences: ["GNU GPLv3"],
+      licenses: ["GNU GPLv3"],
       links: %{"GitHub" => "https://github.com/janpieper/octopus"}
     ]
   end
