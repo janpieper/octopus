@@ -41,7 +41,7 @@ defmodule Octopus.MixProject do
   defp deps do
     [
       {:ex_doc, "~> 0.18.0", only: :dev, runtime: false},
-      {:dialyxir, "~> 1.0.0-rc.3", only: [:dev], runtime: false}
+      {:dialyxir, "~> 1.0.0-rc.3", only: [:test, :dev], runtime: false}
     ]
   end
 end
